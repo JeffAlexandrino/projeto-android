@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid.otf' ;
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+header {
+    background-image: linear-gradient(to top, darkgreen, lightgreen);
+    color: white;
+    padding: 7px;
+    text-align: center;
+    font-size: 15px;
+    font-family:  sans-serif;
+    min-height: 70px;
+}
+
+* { 
+    padding: 0px;
+    margin: 0px
+}
+
+nav {
+    background-color: darkgreen;
+    padding: 10px;
+}
+
+nav > a {
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover {
+    background-color: lightgreen;
+    color: darkgreen
+}
+
+body {
+    background-color: rgb(53, 143, 113);
+}
+
+main p {
+    margin: 15px 0px 15px 0px;
+    text-align: justify;
+    text-indent: 25px;
+}
+
+p  a {
+    color:darkgreen;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+
+main {
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px lightgreen;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+.titulo1{
+    font-family: 'idroid.otf';
+    font-size: 30px;
+    color: darkgreen;
+   
+}
+
+.titulo2 {
+    font-family: 'idroid.otf';
+    font-size: 25px;
+    color: darkgreen;
+    background-image: linear-gradient(to right, lightgreen, white);
+}
+
+.img3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    color: white;
+    background-color: green;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+div.video{
+    background-color: #063d1e;
+    margin-bottom: 30px;
+    margin: 0px -10px 30px -10px;
+    padding: 15px;
+    padding-bottom: 55%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside {
+    background-color: rgba(170, 226, 207, 0.767);
+    text-align: justify;
+    border-radius: 8px;
+    padding: 0px 2px;
+}
+
+aside > ul {
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: '\2714\00A0\00A0';
+}
+
+footer {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
